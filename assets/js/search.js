@@ -1,13 +1,13 @@
+/*
+* función para generar contenido html por película
+*/
 var generateInfo = function(code){
 	var link = "https://www.omdbapi.com/?apikey=3a181f1c&i=" + code;
 	$.getJSON(link).then(function(response){
-		//console.log(response);
-		//console.log(response.Genre + response.Title);
 		/*
 		* comprobar que 'movie' sea de género sci-fi
 		*/
 		if(response.Response == "True" && response.Genre.indexOf("Sci-Fi") !== -1 && response.Type == "movie"){
-			//console.log(response.Genre.indexOf("Sci-Fi"));
 			var title = response.Title;
 			var year = response.Year;
 			var director = response.Director;
@@ -52,15 +52,9 @@ var generateInfo = function(code){
 			//console.log("Movie not found!");
 		}
 	})
-
 }
 /*
-* ejemplo Sci-Fi, ejemplo sin Sci-Fi
-*/
-// generateInfo("interstellar");
-// generateInfo("la la land");
-/*
-* función para búsqueda con varios resultados
+* función para recorrer los resultados de la búsqueda
 */
 var generateResults = function(movieInput){
 	var link = "https://www.omdbapi.com/?apikey=3a181f1c&s=" + movieInput + "&plot=short";
@@ -68,7 +62,7 @@ var generateResults = function(movieInput){
 		console.log(response);
 		movie = response.Search;
 		/*
-		* cuando "response" es un string false, es porque el título no existe
+		* cuando "response" es un string false, es porque la búsqueda no arrojó resultados
 		*
 		*/
 		if (response.Response == "False") {
@@ -81,7 +75,7 @@ var generateResults = function(movieInput){
 		}
 	})
 	/*
-	* interacción con el contenido generado e insertado anteriormente ***********
+	* interacción con el contenido generado e insertado anteriormente
 	*/
 	setTimeout(function() {
 		$(".more").click(function(){
@@ -94,10 +88,10 @@ var generateResults = function(movieInput){
 			console.log(div);
 			var code = $(div).text();
 			console.log(code);
-			
+			//LLAMAR A FUNCIÓN PARA PASARLE LA INFO AL PERFIL DE LA PELÍCULA
 		})
 		/*
-		* interacción con los íconos
+		* interacción con los íconos heart, garbage, see-later y check
 		*/
 		$(".heart").click(function(){
 			if($(this).hasClass("not-active")){
@@ -163,8 +157,6 @@ var generateResults = function(movieInput){
 		})
 	}, 1500);
 }
-// generateResults("interstellar");
-
 /*
 * función de click al btn enter
 */
@@ -242,7 +234,6 @@ $(".check").click(function(){
 		$(this).html("<i class='fas fa-check-circle fa-2x'></i>");
 	}
 })
-
 
 $(".movies-container .title").click(function(){
 	alert("título: " + $(this).text());
