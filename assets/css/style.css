@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	font-family: 'Rajdhani', sans-serif;
+
+}
+.glyphicon-circle-arrow-left{
+	font-size:2em;
+	padding: 0.5em 0em;
+	color:#08A7AB;
+}
+.main.row {
+	padding-top: 4.5em;
+}
+.main.jumbotron{
+	background-image: url(../images/860807862.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h2{
+	display: inline-block;
+}
+
+.glyphicon.glyphicon-time,.glyphicon.glyphicon-heart{
+	padding-right: 0.5em;
+font-size: 1.5em;
+	color:#08A7AB;
+}
+.main{
+	color: white;
+}
