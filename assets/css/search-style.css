@@ -1,6 +1,26 @@
 .container {
-	margin-top: 50px;
 	height: 100%;
+}
+
+nav {
+	height: 60px;
+	padding: 0 10px;
+}
+
+nav img {
+	height: 100%;
+}
+
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	line-height: 60px;
+}
+
+nav li {
+	display: inline-block;
 }
 
 .search {
