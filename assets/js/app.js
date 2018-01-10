@@ -67,7 +67,7 @@ $("#ad-comment").click(function() {
 })
 
 	$("#signin").click(function() {
-		window.location="profile.html";
+		window.location="search.html";
 	
 })
 
