@@ -23,33 +23,41 @@ nav li {
 	display: inline-block;
 }
 
+/*
+* barra de búsqueda
+*/
 .search {
 	background-color: yellow;
 	padding: 15px 0;
 }
-
+/*
+* sección búsqueda no encontrada
+*/
 .movie-not-found {
 	background-color: grey;
 	min-height: 500px;
 	height: 100%;
 }
 
-
-.vertical-align {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
+/*
+* seccion de resultados de búsqueda
+*/
 .results {
 
 }
 
+/*
+* contenedor de c/película
+*/
 .movie {
 	border: 1px solid grey;
 	margin: 20px 0;
 	transition: 0.2s ease-out;
+}
+
+.title {
+	display: inline-block;
+	padding-right: 8px;
 }
 
 .movie hr {
@@ -76,6 +84,7 @@ nav li {
 .icons-container li {
 	padding: 2px;
 	margin: 18px 0;
+	display: inline-block;
 }
 
 .icons-container li:hover {
@@ -104,4 +113,33 @@ span.main {
 
 span.code {
 	display: none;
+}
+
+.more {
+	font-size: 12px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.more:hover {
+	color: red;
+}
+
+
+@media (min-width: 768px){
+	.vertical-align {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.movie li {
+		display: block;
+	}
+}
+
+@media (max-width: 766px){
+	.movie li {
+		margin: 18px 10px;
+	}
 }
