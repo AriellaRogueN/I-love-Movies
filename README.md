@@ -4,6 +4,8 @@ Página de recopilación de data de películas solo de género **Ciencia Ficció
 ¿Por qué?
 - Existían páginas que recopilaban mucha información de películas pero nada acotado al género de Sci-Fi que permitiera solo calificar a ese tipo de películas , que por ejemplo saliera solo un ranking de este género y no mezclando romance , niños u otros que solo hacen más confusa la navegación.
 
+- Público objetivo 
+
 ## Organización:
 
 -Planificación del trabajo.
@@ -27,7 +29,7 @@ Página de recopilación de data de películas solo de género **Ciencia Ficció
 -https://ibb.co/dqFHbm -Info Película
 
 -
-## 
+## Esperamos tener
 
 ## 
 
