@@ -369,7 +369,7 @@ h2{
     text-decoration: none;
     display: inline-block;
     margin-right: 1em;
-    margin-left: 0.3em;
+    margin-left: 0.1em;
     font-size: 1.5em;
 }
 
@@ -389,5 +389,10 @@ h2{
 #form-movies h3{
 	margin-bottom: 1em;
 }
+
+#search-container{
+	margin-bottom: 3em;
+}
+
 
 
