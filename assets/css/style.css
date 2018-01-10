@@ -192,11 +192,12 @@ body{
 	background-size: cover;
 }
 
+/*Estilos de profile*/
 
-
-
-
-
+.dani{
+  height: 40px;
+  border-radius: 100%;
+}
 
 
 
