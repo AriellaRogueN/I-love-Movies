@@ -35,6 +35,7 @@ generateInfo("la la land");
 *
 */
 
+
 /*----- Agregar comentarios seccion movie-----*/
 $(document).ready(function () {
 
@@ -62,3 +63,4 @@ $("#ad-comment").click(function() {
 
 	
 })
+
