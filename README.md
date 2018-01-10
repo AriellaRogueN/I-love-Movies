@@ -14,7 +14,7 @@ Página de recopilación de data de películas solo de género **Ciencia Ficció
 -Maquetado.
 -Implementación de función para trabajar con Apis.
 
-![](https://ibb.co/d1a5U6 )
+![](https://ibb.co/d1a5U6)
 -https://ibb.co/d1a5U6
 -https://ibb.co/dBh296
 -https://ibb.co/f0V0wm
