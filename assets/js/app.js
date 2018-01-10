@@ -51,6 +51,9 @@ $("#ad-comment").click(function() {
 		"<li class=''><a href=''>Dislike</a></li>" +
 		"</ul>" + "</div>" + "</div>")
 		$("#comment-box").val("");
+
+		$("#comment-box").val("");
+	/*Fin comentarios*/
 })
 /*
 * click en .back
@@ -65,6 +68,8 @@ $("#ad-comment").click(function() {
 		window.location="search.html";
 	})
 })
+
+
 
 
 
