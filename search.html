@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I &#10084; Sci-Fi Movies</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- link bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- link estilos -->
+	<link rel="stylesheet" href="assets/css/search-style.css">
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<div class="container">
+		<!-- barra de búsqueda -->
+		<div class="row search">
+			<div class="col-md-12 text-center">
+				<input type="text" placeholder="búsqueda" class="movie-input">
+				<button type="button" class="btn-search">enter</button>
+			</div>
+		</div>
+		<!-- aviso de película no encontrada -->
+		<div class="row movie-not-found vertical-align">
+			<div class="col-md-12 text-center">
+				<p>Movie not found!</p>
+			</div>
+		</div>
+		<!-- resultados de la búsqueda -->
+		<div class="row results">
+			<div class="col-md-10 col-md-offset-1 movies-container">
+				<!-- película -->
+				<div class="row movie vertical-align">
+					<div class="col-md-3 img-container text-center">
+						<img src="assets/images/photo-default.png" alt="">
+					</div>
+					<div class="col-md-8 info-container">
+						<h4 class=title>Título</h4>
+						<span class="main"><span class="bold">Director: </span><span class="director">Señor Director</span></span>
+						<span class="main">
+							<span class="bold">Year: </span><span class="year">1900</span>
+						</span>
+						<span class="main">
+							<span class="bold">Cast: </span><span class="actors">Señor Actor, Señora Actriz, Señorito Actor</span>
+						</span>
+						<hr>
+						<p class="short-plot"><span class="bold">Plot: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus et error.</p>
+						<hr>
+					</div>
+					<div class="col-md-1 icons-container">
+						<ul>
+							<li class="heart not-active"><!-- full-heart <i class="fas fa-heart fa-2x"></i>--><i class="far fa-heart fa-2x"></i></li>
+							<li class="garbage not-active"><!-- full garbage <i class="fas fa-trash-alt fa-2x"></i> --><i class="far fa-trash-alt fa-2x"></i></li>
+							<li class="see-later not-active"><!-- full-watch <i class="fas fa-clock fa-2x"></i> --><i class="far fa-clock fa-2x"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+	<!-- scripts -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/search.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+</body>
+</html>
