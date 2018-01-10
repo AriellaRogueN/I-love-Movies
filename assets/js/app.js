@@ -61,6 +61,12 @@ $("#ad-comment").click(function() {
         $("#comment-box").val("");
 })
 
+	$(".back").click(function() {
+		window.location="index.html";
 	
 })
+
+})
+
+
 
