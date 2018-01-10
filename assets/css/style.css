@@ -3,13 +3,16 @@
 }
 
 
+
+
 /*Estilos Modal*/
 .btn-primary {
-  color: #fff;
-  background-color: #08A7AB;
-  border-color: #08A7AB;
+    color: #fff;
+    background-color: #08A7AB;
+    border-color: #08A7AB;
+    margin-left: 672px;
+    margin-top: -102px;
 }
-
 
 .btn-success {
     color: #fff;
@@ -21,6 +24,14 @@
     color: #fff;
     background-color: #eba72a;
     border-color: #eba72a;
+}
+
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -13px;
+
 }
 
 /*Estilos de Carrusel*/
