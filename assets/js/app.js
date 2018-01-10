@@ -1,11 +1,11 @@
-var generateInfo = function(movie){
+/* var generateInfo = function(movie){
 	var link = "https://www.omdbapi.com/?apikey=3a181f1c&t=" + movie;
 	$.getJSON(link).then(function(response){
 		console.log(response);
 		console.log(response.Genre.indexOf("Sci-Fi"));
-		/*
+		
 		* comprobar que 'movie' sea de género sci-fi
-		*/
+		
 		if(response.Response == "True" && response.Genre.indexOf("Sci-Fi") !== -1){
 			console.log(response.Genre.indexOf("Sci-Fi"));
 			var title = response.Title;
@@ -23,27 +23,20 @@ var generateInfo = function(movie){
 		}
 	})
 }
-/*
-* ejemplo Sci-Fi, ejemplo sin Sci-Fi
-*/
+
+ ejemplo Sci-Fi, ejemplo sin Sci-Fi
 generateInfo("interstellar");
 generateInfo("la la land");
 
-
-/*
 * cuando "response" es un string false, es porque el título no existe
 *
 */
-
-
-/*----- Agregar comentarios seccion movie-----*/
 $(document).ready(function () {
-
-
+/*
+* agregar comentarios seccion movie
+*/
 $("#ad-comment").click(function() {
 	var comments = $("#comment-box").val();
-
-
 	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
 		"<a class='pull-left' href='#'></a>" +
 		"<div class='media-body'>" +
@@ -57,20 +50,20 @@ $("#ad-comment").click(function() {
 		"<li class=''><a href=''>Like</a></li>" +
 		"<li class=''><a href=''>Dislike</a></li>" +
 		"</ul>" + "</div>" + "</div>")
-
-        $("#comment-box").val("");
+		$("#comment-box").val("");
 })
-
+/*
+* click en .back
+*/
 	$(".back").click(function() {
 		window.location="index.html";
-	
-})
-
+	})
+/*
+* click en #signin
+*/
 	$("#signin").click(function() {
 		window.location="search.html";
-	
-})
-
+	})
 })
 
 
