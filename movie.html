@@ -12,18 +12,64 @@
 </head>
 <body>
   <section>
+   <!--En esta sección se insertarán el poster e información de las peliculas-->
     <div id="container-movies"class="container">
-    
-  </Section>
+    <div class="col-sm-12">
+        <div class="col-sm-3 margin-img">
+            <img id="img-profile" class="img-thumbnail img-center img-rounded" src="http://placehold.it/200x232&text=Foto+Profilo">
+            <ul>
+                <li>
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-7">
+            <p>Title</p>
+            <p>Year</p>
+            <p>RunTime</p>
+            <p>Director</p>
+            <p>Actors</p>
+            <p>Production</p>
+            <p>Plot: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam aliquam hic saepe omnis sunt eius, quis quisquam est nostrum ipsa delectus nam suscipit aspernatur rem ut veniam impedit harum!</p>
+</Section>
 
   <section>
-    <div id="comments" class="container">
-    
+      <!--En esta sección irán comentarios sobre las peliculas-->
+    <div id="comments-movies" class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4 ">
+              <form action="javascript:void(0)">
+                <h3>Add Comment</h3>
+                  <div class="row">
+                    <div class="col-sm-3 col-md-3 hidden-xs">
+                        <img class="img-responsive" src="https://i.ytimg.com/vi/DxOmh658_eE/hqdefault.jpg" alt="">
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-9 col-md-9">
+                        <textarea class="form-control" id="comment-box" placeholder="Your comment" ></textarea>
+                    </div>
+                  </div>
+                <button id="ad-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+              </form>
+              <div class="row">
+                  <div class="col-sm-3 col-md-3 hidden-xs">
+                    <img class="img-responsive" src= alt="">
+                  </div>
+                  <div id="new-comment" class="co-xs-12 col-sm-9 col-md-9">
 
-
-
+                  </div>
+                 
+              </div>
+            </div>
+        </div>
+    </div>
   </section>
-
+  
 
     
   

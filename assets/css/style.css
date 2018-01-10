@@ -147,3 +147,46 @@ font-size: 1.5em;
 .main{
 	color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contenedor de peliculas*/
+
+
+/* -- Iconos -- */
+
+#container-movies ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 0.3em;
+    font-size: 1.5em;
+}
