@@ -94,6 +94,7 @@ var generateResults = function(movieInput){
 			console.log(div);
 			var code = $(div).text();
 			console.log(code);
+			
 		})
 		/*
 		* interacción con los íconos
