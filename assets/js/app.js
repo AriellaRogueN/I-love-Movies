@@ -44,7 +44,7 @@ $("#ad-comment").click(function() {
 	var comments = $("#comment-box").val();
 
 
-	$("#new-comment").append("<div class='media'>" +
+	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
 		"<a class='pull-left' href='#'></a>" +
 		"<div class='media-body'>" +
 		"<h4 class='media-heading'>UserName</h4>" +

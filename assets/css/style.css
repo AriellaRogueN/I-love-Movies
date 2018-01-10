@@ -278,3 +278,22 @@ h2{
     margin-left: 0.3em;
     font-size: 1.5em;
 }
+
+/*Contenedor Comentarios de Peliculas*/
+
+
+#new-commentbox{
+	margin-top: 3em;
+	border-top: 1px dotted rgb(141, 136, 136);
+}
+
+#new-commentbox h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#form-movies h3{
+	margin-bottom: 1em;
+}
+
+
