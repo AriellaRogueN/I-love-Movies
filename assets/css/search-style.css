@@ -1,0 +1,87 @@
+.container {
+	margin-top: 50px;
+	height: 100%;
+}
+
+.search {
+	background-color: yellow;
+	padding: 15px 0;
+}
+
+.movie-not-found {
+	background-color: grey;
+	min-height: 500px;
+	height: 100%;
+}
+
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.results {
+
+}
+
+.movie {
+	border: 1px solid grey;
+	margin: 20px 0;
+	transition: 0.2s ease-out;
+}
+
+.movie hr {
+	border-top: 1px dotted #8c8b8b;
+	margin: 0;
+}
+
+.img-container {
+	padding: 10px 20px;
+
+}
+
+.img-container img {
+	width: 100%;
+}
+
+.icons-container ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.icons-container li {
+	padding: 2px;
+	margin: 18px 0;
+}
+
+.icons-container li:hover {
+	cursor: pointer;
+	color: green;
+}
+
+span.main {
+	display: inline-block;
+	width: 100%;
+	padding: 4px 0;
+	font-size: 12px;
+}
+
+.short-plot {
+	margin-top: 12px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.movie .last-hr {
+	margin-bottom: 10px;
+}
+
+span.code {
+	display: none;
+}
