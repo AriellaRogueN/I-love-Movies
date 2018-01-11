@@ -300,8 +300,6 @@ body{
 
 body{
 	font-family: 'Rajdhani', sans-serif;
-
-
 }
 .glyphicon-circle-arrow-left{
 	font-size:2em;
@@ -330,8 +328,16 @@ h2{
 }
 .search{
 	padding-top: 6em;
+	padding-bottom: 3em;
 }
-
+.first-time{
+	margin:0;
+	padding: 0 2em;
+}
+#login{
+	font-size: 1.5em;
+	color: white;
+}
 
 
 
