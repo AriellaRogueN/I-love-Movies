@@ -38,7 +38,7 @@ $(document).ready(function () {
 $("#ad-comment").click(function() {
 	var comments = $("#comment-box").val();
 	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
-		"<a class='pull-left' href='#'></a>" +
+		"<a class='pull-left' href='#'><img class='media - object ' src='../images/ari.png'></a>" +
 		"<div class='media-body'>" +
 		"<h4 class='media-heading'>UserName</h4>" +
 		"<p>" + comments + "</p>" +
@@ -47,12 +47,12 @@ $("#ad-comment").click(function() {
 		"<li><i class='fa fa-thumbs-up'></i>13</li>" +
 		"</ul>" +
 		"<ul class='list-unstyled list-inline media-detail pull-right'>" +
-		"<li class=''><a href=''>Like</a></li>" +
-		"<li class=''><a href=''>Dislike</a></li>" +
+		"<li class=''><a href=''>Compartir</a></li>" +
 		"</ul>" + "</div>" + "</div>")
+		
 		$("#comment-box").val("");
 
-		$("#comment-box").val("");
+		
 	/*Fin comentarios*/
 })
 /*
@@ -68,8 +68,6 @@ $("#ad-comment").click(function() {
 		window.location="search.html";
 	})
 })
-
-
 
 
 

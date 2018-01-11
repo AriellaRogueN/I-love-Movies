@@ -1,12 +1,14 @@
-# I <3 Sci-Fi Movies
-Página de recopilación de data de películas solo de género **Ciencia Ficción**(Sci-Fi) con posibilidad de crear un perfil para agregar películas favoritas, películas ya vistas, películas que se consideran deben ser borradas de la historia por su calidad o ver un ranking con mejores películas hasta el momento.
+## Producto
+
+Aplicación para obtener datos de películas  de  **Ciencia Ficción**(Sci-Fi), version mobile y desktop.
+
+Nuestro producto está enfocado a un público adulto joven fanáticos de este género, permite crear un perfil de usuario con opciones para agregar películas favoritas, películas ya vistas, películas que no deben ser vistas o ver un ranking con mejores y peores películas según la calificación de  usuarios. Tambien puede visualizar perfiles de otros usuarios para ver sus intereses y realizar busquedas de peliculas para obtener su información y generar comentarios.
 
 ¿Por qué?
-- Existían páginas que recopilaban mucha información de películas pero nada acotado al género de Sci-Fi que permitiera solo calificar a ese tipo de películas , que por ejemplo saliera solo un ranking de este género y no mezclando romance , niños u otros que solo hacen más confusa la navegación.
+- Existen páginas que recopilan mucha información de películas pero nada acotado al género de Sci-Fi. Nuestro objetivo es que el usuario logre una navegación sencilla e intuitiva, que permita una busqueda rápida y que pueda clasificar las peliculas según sus preferencias.
 
-- Público objetivo 
 
-## Organización:
+## Organización inicial:
 
 -Planificación del trabajo.
 -Realización sketches.
@@ -16,21 +18,17 @@ Página de recopilación de data de películas solo de género **Ciencia Ficció
 -Maquetado.
 -Implementación de función para trabajar con Apis.
 
--https://ibb.co/d1a5U6
--https://ibb.co/d1a5U6
--https://ibb.co/dBh296
--https://ibb.co/f0V0wm
--https://ibb.co/ck4796
+## Desarrollo
+La realización de sketches, comienzo del diseño y busqueda de información se desarrolló en forma conjunta,se asignó el maquetado y funcionalidad de una de las vistas a cada integrante del grupo, la implementación de la funcion para trabajar con api la realizó la integrante con mayores habilidades en front-end.
 
-## Vistas :
--https://ibb.co/mrwbK6 -Inicio
--https://ibb.co/bAhae6 -Profile
--https://ibb.co/gkv0CR -Búsqueda
--https://ibb.co/dqFHbm -Info Película
+## Equipo
+-Liseth Donaire.
+ Diseño, maquetado, funcionalidad del modal.
+-Daniela Parraguez.
+Diseño, maquetado, Elaboracion Readme avances.
+-Ariella Rodríguez.
+Maquetado,funcionalidad comentarios, Elaboracion readme final.
+-Leticia Rodríguez.
+Maquetado, implementacion y desarrollo de Api.
 
--
-## Esperamos tener
-
-## 
-
-###
+Viernes 12 de Enero, 2018.
