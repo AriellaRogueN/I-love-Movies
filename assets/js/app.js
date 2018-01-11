@@ -68,9 +68,15 @@ $("#ad-comment").click(function() {
 		window.location="search.html";
 	})
 
+})
+/*
+* vista c/login
+*/
+	$
 
 
-});
+
+
 
 
 
