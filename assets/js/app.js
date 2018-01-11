@@ -31,11 +31,22 @@ generateInfo("la la land");
 * cuando "response" es un string false, es porque el título no existe
 *
 */
-$(document).ready(function () {
+$(document).ready(function() {
+
+/*
+* vista c/login
+*/
+		var hideSearchResults= $(".search-results").hide();
+		var hideProfile= $(".background-profile").hide();
+		var hideMoviesDescription= $("#container-movies").hide();
+		var hideRecentActivity= $(".users").hide();
+		var hideMoviesComments= $(".movies-comments").hide();
+		var hideCarrousel= $(".section-white").hide();
+		var hideFirsTime= $(".first-time").hide();
 /*
 * agregar comentarios seccion movie
 */
-$("#ad-comment").click(function() {
+$("#add-comment").click(function() {
 	var comments = $("#comment-box").val();
 	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
 		"<a class='pull-left' href='#'><img class= img-responsive width='50px' height='50px' src='http://www.msnanimal.cl/emoticons/animales_perros_y_gatos/emoticons_animales_msnanimal_com-257.gif' alt = ''></a>" +
@@ -54,25 +65,36 @@ $("#ad-comment").click(function() {
 
 		
 	/*Fin comentarios*/
-})
+});
 /*
-* click en .back
+* click en .back vista de profile usuario
 */
 	$(".back").click(function() {
-		window.location="index.html";
+		var showProfile= $(".background-profile").show();
+		var hideSearchResults= $(".search-results").hide();
+		var hideProfile= $(".background-profile").hide();
+		var hideMoviesDescription= $("#container-movies").hide();
+		var hideRecentActivity= $(".users").hide();
+		var hideMoviesComments= $(".movies-comments").hide();
+		var hideCarrousel= $(".section-white").hide();
+
 	})
 /*
 * click en #signin
 */
 	$("#signin").click(function() {
-		window.location="search.html";
+		var hideFirsTime= $(".first-time").hide();
 	})
 
-})
 /*
 * vista c/login
 */
-	$
+		var hideSearchResults= $(".search-results").hide();
+		var hideProfile= $(".background-profile").hide();
+		var hideMoviesDescription= $("#container-movies").hide();
+		var hideRecentActivity= $(".user").hide();
+})
+
 
 
 
@@ -87,12 +109,12 @@ $("#ad-comment").click(function() {
 /*Funcion de splash-no funcionando*/
 
 function load(){
-  var url = 'index.html';
-  setTimeout(function () {
-    $('.splash').fadeOut(500);
-  }, 3000);
-  setTimeout(function () {
-    $(location).attr('href', 'splash.html').fadeIn(500)
-  }, 3000);
+	var url = 'index.html';
+	setTimeout(function () {
+		$('.splash').fadeOut(500);
+	}, 3000);
+	setTimeout(function () {
+		$(location).attr('href', 'splash.html').fadeIn(500)
+	}, 3000);
 }
 

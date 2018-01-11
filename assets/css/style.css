@@ -365,12 +365,12 @@ h2{
 	color: white;
 }
 .search{
-	padding-top: 6em;
-	padding-bottom: 3em;
+	padding-top: 0.3em;
+	padding-bottom: 0.8em;
 }
 .first-time{
 	margin:0;
-	padding: 0 2em;
+	padding: 8em 2em;
 }
 #login{
 	font-size: 1.5em;

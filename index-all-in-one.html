@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-
-<meta charset="UTF-8">
-<title>I love csi-fi Movies</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<title>I &#10084; Sci-Fi Movies</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- link bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
+	<!-- link estilos -->
+<link rel="stylesheet" href="assets/css/search-style.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
 
 </head>
 
@@ -158,9 +160,9 @@ crossorigin="anonymous">
 				<li><a id="login" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Sign In/Register</a></li>
 			</ul>
 		</div>
-	</nav>
 
-		<!-- BUSCADOR -->
+
+		<!-- BUSCADOR (.search)-->
 <div class="container search">
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-1">
@@ -177,7 +179,7 @@ crossorigin="anonymous">
 		</div>
 	</div>
 </div>
-
+</nav>
 		<!-- PRIMERA VEZ EN LA PÁGINA (.first-time) -->
 
 <div class="row first-time">
@@ -318,8 +320,7 @@ crossorigin="anonymous">
 
 <!-- Fin Seccion de Usuarios -->
 
-<!-- Profile -->
-
+<!-- Profile (.background-profile)-->
 <div class="background-profile">
 
 	<!--row menú principal-->
@@ -429,6 +430,7 @@ crossorigin="anonymous">
 		</div>
 	</div>
 </div>
+</div>
 
 <!-- Resultados Search (.search-results) -->
   <div class="search-results">
@@ -475,13 +477,13 @@ crossorigin="anonymous">
 
 
 <!--Movies descripción (#container-movies)-->
-<section>
+  <section>
     <!--En esta sección se insertarán el poster e información de las peliculas-->
     <div id="container-movies" class="container">
       <div class="col-sm-12 col-md-12">
         <div class="col-sm-3 margin-img">
           <img id="img-profile" class="img-thumbnail img-center img-rounded" src="http://placehold.it/200x232&text=Foto+Profilo">
-          <ul class="iconos-movies">
+          <ul>
             <li>
               <i id="heart-2" class="fa fa-heart-o" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="1140"></i>
             </li>
@@ -503,15 +505,17 @@ crossorigin="anonymous">
           <p>Plot: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam aliquam hic saepe omnis sunt eius,
             quis quisquam est nostrum ipsa delectus nam suscipit aspernatur rem ut veniam impedit harum!</p>
   </section>
-  <section>
+
     <!--En esta sección irán comentarios sobre las peliculas-->
-    <div class="container comments">
+  <section class="movies-comments">
+    <div class="container">
       <div class="row">
         <div class="col-xs-8 col-sm-8 col-md-4 ">
           <form id="form-movies" action="javascript:void(0)">
             <h3>Add Comment</h3>
             <!--Div para colocar foto de perfil-->
             <div class="row">
+
               <div class="col-sm-3 col-md-3 hidden-xs">
                 <img class="img-responsive" src="http://www.msnanimal.cl/emoticons/animales_perros_y_gatos/emoticons_animales_msnanimal_com-257.gif" alt="">
               </div>
@@ -521,13 +525,13 @@ crossorigin="anonymous">
                 <textarea class="form-control" id="comment-box" placeholder="Your comment"></textarea>
               </div>
               <!--fin textarea-->
-              <button id="ad-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+              <button id="add-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
           </form>
           <!--Div nuevos comentarios-->
           <div class="row">
             <div id="new-comment" class="col-xs-12 col-sm-9 col-md-9">
             </div>
-            <!--Fin div nuevos comentarios-->
+          <!--Fin div nuevos comentarios-->
           </div>
           </div>
         </div>
@@ -559,11 +563,11 @@ crossorigin="anonymous">
 
 
 <!--Scripts-->
+	<!-- scripts -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="assets/js/search.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-crossorigin="anonymous"></script>
-
-<script src="https://use.fontawesome.com/470efe3545.js"></script>
-<script type="assets/js/app.js"></script>
 </body>
 </html>
