@@ -67,7 +67,31 @@ $("#ad-comment").click(function() {
 	$("#signin").click(function() {
 		window.location="search.html";
 	})
-})
 
 
 
+});
+
+
+
+
+
+<<<<<<< HEAD
+=======
+
+
+
+
+
+/*Funcion de splash-no funcionando*/
+
+function load(){
+  var url = 'index.html';
+  setTimeout(function () {
+    $('.splash').fadeOut(500);
+  }, 3000);
+  setTimeout(function () {
+    $(location).attr('href', 'splash.html').fadeIn(500)
+  }, 3000);
+}
+>>>>>>> actualizando archivos estilos
