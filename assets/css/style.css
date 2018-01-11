@@ -219,18 +219,21 @@ body{
 .img-fondo{
   background-image: url(../images/web-background.jpg);
   background-size: cover;
-  color: #ffffff
+  color: #ffffff;
 }
 
 
 
 .htmlNew{
-  background-image: url(../images/web-background.jpg);
+  background-image: url(../images/web-background-2.jpg);
+  color: #ffffff;
+  background-size: cover;
 }
 
 
-
-
+.transparent{
+  background-color: transparent;
+}
 
 
 

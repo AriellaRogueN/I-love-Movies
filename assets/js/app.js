@@ -82,11 +82,6 @@ $("#ad-comment").click(function() {
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
 
 
 /*Funcion de splash-no funcionando*/
@@ -100,4 +95,4 @@ function load(){
     $(location).attr('href', 'splash.html').fadeIn(500)
   }, 3000);
 }
->>>>>>> actualizando archivos estilos
+
