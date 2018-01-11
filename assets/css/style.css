@@ -220,14 +220,16 @@ body{
   background-image: url(../images/web-background.jpg);
   background-size: cover;
   color: #ffffff;
+
 }
 
 
 
-.htmlNew{
+.background-profile{
   background-image: url(../images/web-background-2.jpg);
   color: #ffffff;
   background-size: cover;
+
 }
 
 
@@ -320,8 +322,8 @@ body{
 	font-family: 'Rajdhani', sans-serif;
 }
 .glyphicon-circle-arrow-left{
-	font-size:2em;
-	padding: 0.5em 0em;
+	font-size:4em;
+	padding: 0.5em;
 	color:#08A7AB;
 }
 .main.row ,.section-white{
@@ -331,6 +333,7 @@ body{
 	background-image: url(../images/wallpaper.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 h2{
 	display: inline-block;

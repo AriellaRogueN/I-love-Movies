@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8">
 <title>I love csi-fi Movies</title>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -14,19 +14,8 @@ crossorigin="anonymous">
 </head>
 
 <body>
-<!-- Fixed Navbar -->
-	<nav class="navbar-default navbar-fixed-top space">
-		<div class="container-fluid">
-			<img class="logo" src="assets/images/logotipo white.png" alt="logo">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#user" data-toggle="modal"><img class="media-object img-circle" src="" alt=""></a></li>
-				<li><a id="login" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Sign In/Register</a></li>
-			</ul>
-		</div>
-	</nav>
 
-
-<!-- Modal Login/Register -->
+<!-- Modal Login/Register-->
 
 <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 
@@ -160,6 +149,16 @@ crossorigin="anonymous">
 
 <!-- FIN SECCION MODAL -->
 
+<!-- Fixed Navbar (.space) -->
+	<nav class="navbar-default navbar-fixed-top space">
+		<div class="container-fluid">
+			<img class="logo" src="assets/images/logotipo white.png" alt="logo">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#user" data-toggle="modal"><img class="media-object img-circle" src="" alt=""></a></li>
+				<li><a id="login" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Sign In/Register</a></li>
+			</ul>
+		</div>
+	</nav>
 
 		<!-- BUSCADOR -->
 <div class="container search">
@@ -179,7 +178,7 @@ crossorigin="anonymous">
 	</div>
 </div>
 
-		<!-- PRIMERA VEZ EN LA PÁGINA -->
+		<!-- PRIMERA VEZ EN LA PÁGINA (.first-time) -->
 
 <div class="row first-time">
 	<h3>Is your first time here?</h3>
@@ -214,7 +213,7 @@ crossorigin="anonymous">
 </div>
 
 
-<!-- SECCION 2 CARRUSEL -->
+<!-- SECCION 2 CARRUSEL (.section-white) -->
 
 <section class="section-white">
 	<div class="container">
@@ -261,15 +260,13 @@ crossorigin="anonymous">
 <!-- FIN SECCION CARRUSEL -->
 
 
-<!-- Seccion de Usuarios -->
-<div class="container">
+<!-- Seccion de Usuarios (.users) -->
+<div class="container users">
 	<div class="row">
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<div class="page-header">
-
-				<h1><small class="pull-right">45 comentarios </small> Recent activity
- </h1>
-			</div> 
+				<h1><small class="pull-right">45 comentarios </small> Recent activity</h1>
+			</div>
 			<div class="comments-list">
 				<div class="media">
 					<p class="pull-right"><small>1 minute ago</small></p>
@@ -277,7 +274,6 @@ crossorigin="anonymous">
 						<img class="dani" src="assets/images/dani.png"> <!-- Imagen -->
 					</a>
 					<div class="media-body">
-
 						<h4 class="media-heading user_name">Dani</h4>
 						added to your list "Iron Man"
 						<p><small><a href="">Like</a> - <a href="">Share</a></small></p>
@@ -289,7 +285,6 @@ crossorigin="anonymous">
 						<img class="ari" src="assets/images/ari.png" alt="">
 					</a>
 					<div class="media-body">
-
 						<h4 class="media-heading user_name">Ari</h4>trashed "Resident Evil"
 						<p><small><a href="">Like</a> - <a href="">Share</a></small></p>
 					</div>
@@ -300,10 +295,8 @@ crossorigin="anonymous">
 						<img class="leti" src="assets/images/leti.png" alt="">
 					</a>
 					<div class="media-body">
-
 						<h4 class="media-heading user_name">Letti</h4>
 						Wow! this is really great.
-
 						<p><small><a href="">Like</a> - <a href="">Share</a></small></p>
 					</div>
 				</div>
@@ -313,10 +306,8 @@ crossorigin="anonymous">
 						<img class="lay" src="assets/images/lis.jpg">
 					</a>
 					<div class="media-body">
-
 						<h4 class="media-heading user_name">Liss</h4>
 						Wow! this is really great.
-
 						<p><small><a href="">Like</a> - <a href="">Share</a></small></p>
 					</div>
 				</div>
@@ -325,15 +316,254 @@ crossorigin="anonymous">
 	</div>
 </div>
 
-
 <!-- Fin Seccion de Usuarios -->
+
+<!-- Profile -->
+
+<div class="background-profile">
+
+	<!--row menú principal-->
+	<div class="main row container-fluid">
+	<span class="glyphicon glyphicon-circle-arrow-left back" aria-hidden="true"></span>
+		<!--Menú profile datos usuario-->
+		<section class="datos-usuario">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div class="main jumbotron clearfix">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<a href="#" class="thumbnail">
+								<img src="..." alt="...">
+							</a>
+
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+							<h3>Nombre</h3>
+							<h3>Alias</h3>
+							<h3>Edad</h3>
+							<h3>País</h3>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="camera-span">
+							<i class="fa fa-camera" aria-hidden="true"> Sube tu imagen</i>
+							<input id="urlimg" type="file" />
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+		</section>
+	<!--Caja contenedora de películas favoritas-->
+	<div class="row container-fluid">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+			<h2>Favourite Movies...</h2>
+			<div class="post transparent jumbotron">
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Caja contenedora de películas que quiero ver-->
+	<div class="row container-fluid">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+			<h2>Want to see...</h2>
+			<div class="post transparent jumbotron">
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Caja contenedora de películas que he visto-->
+	<div class="row container-fluid">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+			<h2>You've already seen...</h2>
+			<div class="post transparent jumbotron">
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="..." alt="...">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Resultados Search (.search-results) -->
+<div class="search-results">
+		<!-- aviso de película no encontrada -->
+		<div class="row movie-not-found vertical-align">
+			<div class="col-md-12 text-center">
+				<p>Movie not found!</p>
+			</div>
+		</div>
+		<!-- resultados de la búsqueda -->
+		<div class="row results">
+			<div class="col-md-10 col-md-offset-1 movies-container">
+				<!-- película -->
+				<div class="row movie vertical-align">
+					<div class="col-md-3 img-container text-center">
+						<img src="assets/images/photo-default.png" alt="">
+					</div>
+					<div class="col-md-8 info-container">
+						<h4 class=title>Título</h4>
+						<span class="main"><span class="bold">Director: </span><span class="director">Señor Director</span></span>
+						<span class="main">
+							<span class="bold">Year: </span><span class="year">1900</span>
+						</span>
+						<span class="main">
+							<span class="bold">Cast: </span><span class="actors">Señor Actor, Señora Actriz, Señorito Actor</span>
+						</span>
+						<hr>
+						<p class="short-plot"><span class="bold">Plot: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus et error.</p>
+						<hr>
+					</div>
+					<div class="col-md-1 icons-container">
+						<ul>
+							<li class='check not-active'><i class='far fa-check-circle fa-2x'></i></li>
+							<li class="heart not-active"><!-- full-heart <i class="fas fa-heart fa-2x"></i>--><i class="far fa-heart fa-2x"></i></li>
+							<li class="garbage not-active"><!-- full garbage <i class="fas fa-trash-alt fa-2x"></i> --><i class="far fa-trash-alt fa-2x"></i></li>
+							<li class="see-later not-active"><!-- full-watch <i class="fas fa-clock fa-2x"></i> --><i class="far fa-clock fa-2x"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<!--Movies descripción (#container-movies)-->
+<section>
+    <!--En esta sección se insertarán el poster e información de las peliculas-->
+    <div id="container-movies" class="container">
+      <div class="col-sm-12 col-md-12">
+        <div class="col-sm-3 margin-img">
+          <img id="img-profile" class="img-thumbnail img-center img-rounded" src="http://placehold.it/200x232&text=Foto+Profilo">
+          <ul class="iconos-movies">
+            <li>
+              <i id="heart-2" class="fa fa-heart-o" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="1140"></i>
+            </li>
+            <li>
+              <i class="fa fa-trash-o" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="1"></i>
+            </li>
+            <li>
+              <i class="fa fa-clock-o" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="570"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-7">
+          <p>Title</p>
+          <p>Year</p>
+          <p>RunTime</p>
+          <p>Director</p>
+          <p>Actors</p>
+          <p>Production</p>
+          <p>Plot: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam aliquam hic saepe omnis sunt eius,
+            quis quisquam est nostrum ipsa delectus nam suscipit aspernatur rem ut veniam impedit harum!</p>
+  </section>
+  <section>
+    <!--En esta sección irán comentarios sobre las peliculas-->
+    <div class="container comments">
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-4 ">
+          <form id="form-movies" action="javascript:void(0)">
+            <h3>Add Comment</h3>
+            <!--Div para colocar foto de perfil-->
+            <div class="row">
+              <div class="col-sm-3 col-md-3 hidden-xs">
+                <img class="img-responsive" src="https://i.ytimg.com/vi/DxOmh658_eE/hqdefault.jpg" alt="">
+              </div>
+              <!--fin div-->
+              <!--textarea-->
+              <div class="form-group col-xs-12 col-sm-9 col-md-9">
+                <textarea class="form-control" id="comment-box" placeholder="Your comment"></textarea>
+              </div>
+              <!--fin textarea-->
+              <button id="ad-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+          </form>
+          <!--Div nuevos comentarios-->
+          <div class="row">
+            <div class="col-sm-3 col-md-3 hidden-xs">
+              <img class="img-responsive" src=a lt="">
+            </div>
+            <div id="new-comment" class="co-xs-12 col-sm-9 col-md-9">
+            </div>
+            <!--Fin div nuevos comentarios-->
+          </div>
+          </div>
+        </div>
+        <!--div recomendaciones-->
+        <div class="col-sm-8 col-md-8">
+          <div class="row">
+            <div class="col-sm-3 col-md-3 hidden-xs pull-right">
+              <h3>You can see</h3>
+              <img class="img-responsive" src="assets/images/11168096_800.jpg" alt="">
+              <p> Title</p>
+              <p>Year</p>
+              <div>
+                <img class="img-responsive" src="assets/images/274f238cf605b4a4d00e59d3265ac4fc--apocalypse-tv-series.jpg" alt="">
+                <p> Tiltle</p>
+                <p>Year</p>
+              </div>
+              <div>
+                <img class="img-responsive" src="assets/images/33ac8052ea4c0ccf5e19a60673107ecb.jpg" alt="">
+                <p> Tiltle</p>
+                <p>Year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin div-->
+      </div>
+     </div>
+  </section>
 
 
 <!--Scripts-->
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script src="https://use.fontawesome.com/470efe3545.js"></script>
 <script type="assets/js/app.js"></script>
 </body>
