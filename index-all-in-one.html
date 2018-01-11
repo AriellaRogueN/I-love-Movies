@@ -514,18 +514,19 @@
           <form id="form-movies" action="javascript:void(0)">
             <h3>Add Comment</h3>
             <!--Div para colocar foto de perfil-->
+            <fieldset>
             <div class="row">
-
-              <div class="col-sm-3 col-md-3 hidden-xs">
+              <div class="col-xs-3 col-sm-3 col-md-3 ">
                 <img class="img-responsive" src="http://www.msnanimal.cl/emoticons/animales_perros_y_gatos/emoticons_animales_msnanimal_com-257.gif" alt="">
               </div>
               <!--fin div-->
               <!--textarea-->
-              <div class="form-group col-xs-12 col-sm-9 col-md-9">
+              <div class="form-group col-xs-9 col-sm-9 col-md-9">
                 <textarea class="form-control" id="comment-box" placeholder="Your comment"></textarea>
               </div>
               <!--fin textarea-->
-              <button id="add-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+              <button id="ad-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+              </fieldset>
           </form>
           <!--Div nuevos comentarios-->
           <div class="row">
@@ -536,9 +537,9 @@
           </div>
         </div>
         <!--div recomendaciones-->
-        <div class="col-sm-8 col-md-8">
-          <div class="row">
-            <div class="col-sm-3 col-md-3 hidden-xs pull-right">
+        <div id="recomendations" class="col-sm-8 col-md-8 ">
+          <div class="row ">
+            <div class="col-sm-3 col-md-3 hidden-xs pull-right ">
               <h3>You can see</h3>
               <img class="img-responsive" src="assets/images/11168096_800.jpg" alt="">
               <p> Title</p>

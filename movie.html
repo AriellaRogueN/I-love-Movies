@@ -12,8 +12,36 @@
   <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
 </head>
+
 <body class="img-fondo">
 
+  <header>
+    <nav class="navbar-default navbar-fixed-top space">
+      <div class="container-fluid">
+        <img class="logo" src="assets/images/logotipo white.png" alt="logo">
+      </div>
+    </nav>
+    <div class="container">
+      <!-- barra de búsqueda -->
+      <div id="search-container" class="container search">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div id="buscador_container">
+              <div class="input-group stylish-input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon">
+                  <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
   <section>
     <!--En esta sección se insertarán el poster e información de las peliculas-->
     <div id="container-movies" class="container">
@@ -50,29 +78,32 @@
           <form id="form-movies" action="javascript:void(0)">
             <h3>Add Comment</h3>
             <!--Div para colocar foto de perfil-->
+            <fieldset>
             <div class="row">
+              
 
-              <div class="col-sm-3 col-md-3 hidden-xs">
+              <div class="col-xs-3 col-sm-3 col-md-3 ">
                 <img class="img-responsive" src="http://www.msnanimal.cl/emoticons/animales_perros_y_gatos/emoticons_animales_msnanimal_com-257.gif" alt="">
               </div>
               <!--fin div-->
               <!--textarea-->
-              <div class="form-group col-xs-12 col-sm-9 col-md-9">
+              <div class="form-group col-xs-9 col-sm-9 col-md-9">
                 <textarea class="form-control" id="comment-box" placeholder="Your comment"></textarea>
               </div>
               <!--fin textarea-->
               <button id="ad-comment" type="submit" class="btn btn-xs pull-right">Comment</button>
+              </fieldset>
           </form>
           <!--Div nuevos comentarios-->
           <div class="row">
             <div id="new-comment" class="col-xs-12 col-sm-9 col-md-9">
             </div>
-          <!--Fin div nuevos comentarios-->
+            <!--Fin div nuevos comentarios-->
           </div>
           </div>
         </div>
         <!--div recomendaciones-->
-        <div class="col-sm-8 col-md-8">
+        <div id="recomendations" class="col-sm-8 col-md-8">
           <div class="row">
             <div class="col-sm-3 col-md-3 hidden-xs pull-right">
               <h3>You can see</h3>
@@ -94,7 +125,7 @@
         </div>
         <!--Fin div-->
       </div>
-     </div>
+    </div>
   </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"

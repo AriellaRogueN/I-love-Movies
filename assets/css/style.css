@@ -415,12 +415,12 @@ h2{
     display: inline-block;
     margin-right: 1em;
     margin-left: 0.1em;
-	font-size: 1.5em;
-	cursor: pointer;
+	  font-size: 1.5em;
+	 cursor: pointer;
 }
 
 #container-movies ul li:hover{
-	color:blue;
+	color:turquoise;
 }
 
 /*Contenedor Comentarios de Peliculas*/
@@ -444,5 +444,8 @@ h2{
 	margin-bottom: 3em;
 }
 
+#recomendations{
+  margin-left:25em;
+}
 
 
