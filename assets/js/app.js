@@ -38,7 +38,7 @@ $(document).ready(function () {
 $("#ad-comment").click(function() {
 	var comments = $("#comment-box").val();
 	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
-		"<a class='pull-left' href='#'><img class='media - object ' src='../images/ari.png'></a>" +
+		"<a class='pull-left' href='#'><img class= img-responsive width='50px' height='50px' src='https://i.ytimg.com/vi/DxOmh658_eE/hqdefault.jpg' alt = ''></a>" +
 		"<div class='media-body'>" +
 		"<h4 class='media-heading'>UserName</h4>" +
 		"<p>" + comments + "</p>" +
