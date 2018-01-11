@@ -318,7 +318,7 @@ body{
 	padding-top: 4.5em;
 }
 .main.jumbotron{
-	background-image: url(../images/860807862.jpg);
+	background-image: url(../images/wallpaper.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -326,7 +326,9 @@ h2{
 	display: inline-block;
 }
 
-.glyphicon.glyphicon-time,.glyphicon.glyphicon-heart{
+.glyphicon.glyphicon-time,
+.glyphicon.glyphicon-heart,
+.glyphicon.glyphicon-check{
 	padding-right: 0.5em;
 	font-size: 1.5em;
 	color:#08A7AB;
