@@ -210,8 +210,10 @@ body{
 }
 
 
+/*SLPASH*/
+
 .imagen-splash{
-  height: 900px;
+  height: 1538px;
 }
 
 /*FONDO NEGRO DE PROFILE*/
@@ -239,16 +241,29 @@ body{
 
 
 
+.main.jumbotron {
+    margin-left: -16px;
+    margin-top: -7px;
+}
 
 
+#ad-comment{
+  color: #000000;
+}
+
+#ad-comment:hover {
+    color: #ffffff;
+    background-color: #554862;
+}
 
 
+ a{
+  color: #D397E4;
+ }
 
-
-
-
-
-
+ a:hover {
+    color: #9C27B0
+ }
 
 
 
