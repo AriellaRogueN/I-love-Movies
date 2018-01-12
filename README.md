@@ -7,6 +7,17 @@ Nuestro producto está enfocado a un público adulto-joven fanáticos de este g�
 **¿Por qué?**  
 Existen páginas que recopilan mucha información de películas pero nada acotado al género de Sci-Fi. Nuestro objetivo es crear una instancia exclusiva para ellos. Que el usuario logre una navegación sencilla e intuitiva, que permita una busqueda rápida y que pueda clasificar las peliculas según sus preferencias.
 
+**¿Porque el Logotipo escogido?**  
+
+Ya que el nombre de producto era muy extenso y queriamos que visualmente no se viera tan sobrecargado, decidimos implementar íconos para remplazar una palabra y que al momento en que el usuario lo viera pudiera reconocerlo visalmente de inmediato, en este caso hemos implementado un corazón remplazando la plabra ''Love''.
+
+**¿Porque la tipografia?**  
+
+Hicimos una pequeña investigacion de logotipos que tuviese relación con películas de ciencia ficción y pudimos observar que las tipografías eran tanto como palo seco y letras redondeadas, quisimos mezclar ambas y el resultado visualmente se ve equilibrado.
+
+**¿Porque los colores?**  
+
+En la ciencia ficción, entre los colores que más destacan y se repiten, se encuentra el turquesa, es por eso que decidimos trabajar los colores principalmente en torno a él.
 
 ## Organización inicial:
 * Planificación del trabajo.
