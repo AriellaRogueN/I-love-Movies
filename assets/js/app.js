@@ -46,7 +46,7 @@ $(document).ready(function() {
 /*
 * agregar comentarios seccion movie
 */
-$("#add-comment").click(function() {
+$("#ad-comment").click(function() {
 	var comments = $("#comment-box").val();
 	$("#new-comment").append("<div id='new-commentbox' class='media'>" +
 		"<a class='pull-left' href='#'><img class= img-responsive  src='http://www.msnanimal.cl/emoticons/animales_perros_y_gatos/emoticons_animales_msnanimal_com-257.gif' alt = ''></a>" +
