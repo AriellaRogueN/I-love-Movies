@@ -114,6 +114,9 @@ $(document).ready(function(){
 * vista sin login
 */
 $(".go-out").click(function(){
+	$(".favorites-container").empty();
+	$(".see-later-container").empty();
+	$(".have-seen-container").empty();
 	$(".section-white").show();
 	$(".search-container").hide();
 	$(".vista-movie").hide();
