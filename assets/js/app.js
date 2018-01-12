@@ -87,6 +87,7 @@ $("#sign-in").click(function() {
 	var showRecentActivity= $(".users").show();
 	var hideMoviesComments= $(".movies-comments").hide();
 	var showCarrousel= $(".section-white").show();
+	$(".space").append("")
 
 
 })
