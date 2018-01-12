@@ -1,10 +1,12 @@
 body{
-  background-color: 
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 
 .logotipo{
-	height: 90px;
+  height: 100%;
 }
 
 /*Estilos Modal*/
@@ -28,12 +30,10 @@ body{
     border-color: #eba72a;
 }
 
-
 .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
     position: absolute;
     margin-top: 4px\9;
     margin-left: -13px;
-
 }
 
 /*Estilos de Carrusel*/
@@ -48,7 +48,6 @@ body{
 }
 
 /* ------------------- Carousel Styling ------------------- */
-
 .carousel-inner {
   border-radius: 15px;
 }
@@ -84,7 +83,6 @@ body{
 
 
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
-
 .section-white {
    padding: 10px 0;
 }
@@ -95,7 +93,6 @@ body{
 }
 
 @media screen and (min-width: 768px) {
-
   .section-white {
      padding: 1.5em 0;
   }
@@ -103,11 +100,9 @@ body{
 }
 
 @media screen and (min-width: 992px) {
-
   .container {
     max-width: 930px;
   }
-
 }
 
 /*Estilos Usuarios*/
@@ -122,7 +117,6 @@ body{
 }
 
 /* ------------------- Carousel Styling ------------------- */
-
 .carousel-inner {
   border-radius: 15px;
 }
@@ -156,9 +150,7 @@ body{
   background-image: none;
 }
 
-
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
-
 .section-white {
    padding: 10px 0;
 }
@@ -173,7 +165,6 @@ body{
   .section-white {
      padding: 1.5em 0;
   }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -185,15 +176,15 @@ body{
 }
 
 .logo{
-	width: 20%;
+  width: 20%;
 }
+
 .space{
-	background-image: url(../images/wallpaper.jpg);
-	background-size: cover;
+  background-image: url(../images/wallpaper.jpg);
+  background-size: cover;
 }
 
 /*Estilos de profile*/
-
 .dani{
   height: 40px;
 }
@@ -211,41 +202,30 @@ body{
 
 
 /*SLPASH*/
-
 .imagen-splash{
   height: 1538px;
 }
 
 /*FONDO NEGRO DE PROFILE*/
-
 .img-fondo{
   background-image: url(../images/web-background.jpg);
   background-size: cover;
   color: #ffffff;
-
 }
-
-
 
 .background-profile{
   background-image: url(../images/web-background-2.jpg);
   color: #ffffff;
   background-size: cover;
-
 }
-
-
 .transparent{
   background-color: transparent;
 }
-
-
 
 .main.jumbotron {
     margin-left: -16px;
     margin-top: -7px;
 }
-
 
 #ad-comment{
   color: #000000;
@@ -256,7 +236,6 @@ body{
     background-color: #554862;
 }
 
-
  a{
   color: #D397E4;
  }
@@ -265,207 +244,82 @@ body{
     color: #9C27B0
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-	font-family: 'Rajdhani', sans-serif;
-}
 .glyphicon-circle-arrow-left{
-	font-size:4em;
-	padding: 0.5em;
-	color:#08A7AB;
+  font-size:4em;
+  padding: 0.5em;
+  color:#08A7AB;
 }
 .main.row ,.section-white{
-	padding-top: 3em;
+  padding-top: 4.5em;
 }
 .main.jumbotron{
-	background-image: url(../images/wallpaper.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 h2{
-	display: inline-block;
+  display: inline-block;
 }
 
 .glyphicon.glyphicon-time,
 .glyphicon.glyphicon-heart,
 .glyphicon.glyphicon-check{
-	padding-right: 0.5em;
-	font-size: 1.5em;
-	color:#08A7AB;
+  padding-right: 0.5em;
+  font-size: 1.5em;
+  color:#08A7AB;
 }
 .main{
-	color: white;
+  color: white;
 }
-.search{
-	padding-top: 0.3em;
-	padding-bottom: 0.8em;
-}
+
 .first-time{
-	margin:0;
-	padding: 8em 2em 0 2em;
+  margin:0;
+  padding: 0 2em;
 }
-#login{
-	font-size: 1.5em;
-	color: white;
-}
-#sign-in{
-	font-size: 1em;
-	background-color:#08A7AB;
-	color: white;
-}
-.user{
-	height: 4em;
-	display: inline-block;
-	float: right;
-	padding-top: 0.8em;
-}
-.back-home{
-	size: 2em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Contenedor de peliculas*/
 
-
 /* -- Iconos -- */
-
 #container-movies ul li {
     text-decoration: none;
     display: inline-block;
     margin-right: 1em;
     margin-left: 0.1em;
-	  font-size: 1.5em;
-	 cursor: pointer;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 
 #container-movies ul li:hover{
-	color:turquoise;
+  color:blue;
 }
 
 /*Contenedor Comentarios de Peliculas*/
-
-
 #new-commentbox{
-	margin-top: 3em;
-	border-top: 1px dotted rgb(51, 42, 102);
+  margin-top: 3em;
+  border-top: 1px dotted rgb(51, 42, 102);
 }
 
 #new-commentbox h4 {
-	font-size: 18px;
-	font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #form-movies h3{
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 #search-container{
-	margin-bottom: 3em;
+  margin-bottom: 3em;
 }
-
-#recomendations{
-  margin-left:25em;
-}
-
-
-
 
 /*Estilos Footer*/
-
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900,900italic);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
-body {
+footer {
   font-family: 'Alegreya Sans', sans-serif;
-  padding: 15px 0;
 }
 
 ul, ol {
@@ -494,9 +348,7 @@ li {
 }
 
 .footer1 .footer {
-    background-image: url(../images/wallpaper.jpg);
     padding: 27px 0;
-    margin-top: 13em;
 }
 
 .footer1 .footer .footer-desc p {
@@ -581,6 +433,11 @@ li {
     content: "";
 }
 
+div.footer {
+  margin-top: 0;
+  color: white;
+}
+
 @media (max-width: 550px) {
   .footer1 .footer-bottom .pull-left,
   .footer1 .footer-bottom .pull-right {
@@ -591,7 +448,149 @@ li {
   }
 }
 
-.pull-left {
-    color: #ffffff;
-    margin-left: 47px;
+
+/* estilos extras */
+.show-on-login {
+  display: none;
+}
+
+nav {
+  height: 60px;
+  padding: 0 20px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+}
+
+.nav-img-container {
+  padding: 5px 0;
+  height: 60px;
+  display: inline-block;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+}
+ /* botón de inicio o registro */
+#login {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.row.search {
+  background-color: #06040F;
+  padding: 75px 0 15px 0;
+}
+
+.row.search input {
+  width: 70%;
+  padding: 2px;
+  padding-left: 12px;
+  height: 37.5px;
+  border-radius: 4px;
+  border: 1px solid #ccc
+  color: #555;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group-addon {
+  width: auto;
+  display: inline-block;
+  margin: 0;
+}
+
+.row.first-time {
+  padding: 0;
+}
+
+.row.first-time h3 {
+  padding: 10px;
+}
+
+.row.first-time .thumbnail {
+  box-shadow: 0 5px 20px #ccc;
+}
+
+.blue {
+  color: #08A7AB;
+}
+
+div.container.carrusel-c {
+  padding: 0;
+}
+
+.change-container {
+  margin: 40px 50px 0 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.global-container {
+  background-image: url(../images/wallpaper.jpg);
+}
+
+.carousel.slide {
+  margin-bottom: 30px;
+}
+
+.vista-movie ul {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.vista-movie #container-movies ul li {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.vista-movie #container-movies ul li.check {
+  margin-left: 0;
+}
+
+.profile-container {
+  padding: 20px 0;
+}
+
+.profile-container .row {
+  margin: 0;
+  padding: 30px 0;
+}
+
+.profile-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-container .fa-xs {
+  margin-right: 5px;
+  color: #08A7AB;
+}
+
+.profile-container .have-seen-container div, .favorites-container div, .see-later-container div {
+  margin: 10px 0;
+}
+
+.profile-container .have-seen-container, .profile-container .favorites-container, .profile-container .see-later-container {
+  border-radius: 5px;
+  background-image: url(../images/wallpaper.jpg);
+  margin-bottom: 20px;
+}
+
+.search {
+  margin: 0;
+}
+
+.vista-movie {
+  padding: 50px;
 }

@@ -1,17 +1,67 @@
 /*
+* menú oculto de nav
+*/
+.show-on-login li.profile-access {
+	margin-top: 0;
+	width: 40px;
+	height: 40px;
+	cursor:pointer;
+}
+
+.profile-access img {
+	width: 100%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.show-on-login {
+	list-style: none;
+}
+
+.show-on-login li {
+	display: inline-block;
+	margin: 15px 5px 0 5px;
+}
+
+.show-on-login li .fa-2x {
+	color: white;
+	cursor: pointer;
+}
+
+.show-on-login li:hover {
+	opacity: 0.8;
+}
+
+.search-container .main, .info-container .main{
+	color: black;
+}
+
+.info-container span {
+ font-size: 14px;
+}
+
+.long-plot {
+	font-size: 16px;
+}
+
+
+/*
 * sección búsqueda no encontrada
 */
 .movie-not-found {
-	background-color: grey;
 	min-height: 500px;
 	height: 100%;
+}
+
+.movie-not-found p {
+	font-size: 20px;
 }
 
 /*
 * seccion de resultados de búsqueda
 */
 .results {
-
+	margin: 50px 0;
 }
 
 /*
@@ -21,6 +71,8 @@
 	border: 1px solid grey;
 	margin: 20px 0;
 	transition: 0.2s ease-out;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 20px #ccc;
 }
 
 .title {
@@ -28,9 +80,13 @@
 	padding-right: 8px;
 }
 
-.movie hr {
+.movie hr, .profile-container hr {
 	border-top: 1px dotted #8c8b8b;
 	margin: 0;
+}
+
+.vista-movie hr {
+	border-top: 1px dotted #8c8b8b;
 }
 
 .img-container {
@@ -53,11 +109,13 @@
 	padding: 2px;
 	margin: 18px 0;
 	display: inline-block;
+	color: #06040F;
 }
 
 .icons-container li:hover {
 	cursor: pointer;
 	color: green;
+	color: #08A7AB;
 }
 
 span.main {
@@ -93,6 +151,22 @@ span.code {
 	color: red;
 }
 
+.mini-title {
+	padding: 10px 0;
+}
+
+.profile-picture-container {
+	padding: 3px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.profile-info-container {
+	background-image: url(../images/wallpaper.jpg);
+	border-radius: 5px;
+	color: white;
+}
 
 @media (min-width: 768px){
 	.vertical-align {
@@ -104,10 +178,42 @@ span.code {
 	.movie li {
 		display: block;
 	}
+	.profile-info {
+		padding-left: 40px;
+	}
+	.profile-info-container.row {
+		margin-left: 8.3%;
+		margin-right: 8.3%;
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 766px){
+	nav {
+		padding: 0 5px;
+	}
+	nav a#login {
+		margin: 0;
+		margin-right: 15px;
+	}
 	.movie li {
 		margin: 18px 10px;
+	}
+
+	.vista-movie {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.movie-not-found p {
+		padding: 10px;
+		margin: 50px 0;
+	}
+	.change-container.container-fluid {
+		margin: 20px 5px;
+	}
+
+	.profile-info {
+		padding-top: 15px;
 	}
 }
