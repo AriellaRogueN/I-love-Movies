@@ -24,7 +24,7 @@ La realización de sketches, comienzo del diseño y busqueda de información se 
 * **Liseth Donaire**:  
  Diseño, maquetado, funcionalidad del modal.
 * **Daniela Parraguez**:  
-Diseño, maquetado, Elaboracion Readme avances.
+Diseño, maquetado, Elaboracion Readme avances, funcionalidad cambio de vistas.
 * **Ariella Rodríguez**:  
 Maquetado, funcionalidad comentarios, Elaboracion readme final.
 * **Leticia Rodríguez**:  

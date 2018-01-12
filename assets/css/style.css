@@ -529,10 +529,11 @@ div.container.carrusel-c {
   padding: 0;
 }
 
-.change-container {
+div.change-container.container-fluid {
   margin: 40px 50px 0 50px;
   background-color: white;
   border-radius: 5px;
+  padding-bottom: 40px!important;
 }
 
 .global-container {
@@ -593,4 +594,8 @@ div.container.carrusel-c {
 
 .vista-movie {
   padding: 50px;
+}
+
+.list.more {
+  background-color: white;
 }
