@@ -377,13 +377,15 @@ h2{
 	background-color:#08A7AB;
 	color: white;
 }
-.user,.back-home{
+.user{
 	height: 4em;
 	display: inline-block;
 	float: right;
 	padding-top: 0.8em;
 }
-
+.back-home{
+	size: 2em;
+}
 
 
 

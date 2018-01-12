@@ -69,12 +69,13 @@ var showFirsTime= $(".first-time").show();
 * click en .back vista de profile usuario
 */
 $(".back").click(function() {
+	var hideFirsTime= $(".first-time").hide();
 	var hideSearchResults= $(".search-results").hide();
 	var hideProfile= $(".background-profile").hide();
 	var hideMoviesDescription= $("#container-movies").hide();
-	var hideRecentActivity= $(".users").hide();
+	var showRecentActivity= $(".users").show();
 	var hideMoviesComments= $(".movies-comments").hide();
-	var hideCarrousel= $(".section-white").hide();
+	var showCarrousel= $(".section-white").show();
 })
 /*
 * click en #signin
@@ -96,7 +97,7 @@ $("#sign-in").click(function() {
 /*
 * click en .user (va al perfil)
 */
-$(".user-click").click(function() {
+$(".user-logo").click(function() {
 var hideSearchResults= $(".search-results").hide();
 var showProfile= $(".background-profile").show();
 var hideMoviesDescription= $("#container-movies").hide();
@@ -104,7 +105,7 @@ var hideRecentActivity= $(".users").hide();
 var hideMoviesComments= $(".movies-comments").hide();
 var hideCarrousel= $(".section-white").hide();
 var hideFirsTime= $(".first-time").hide();
-	$(".background-profile").css( "paddingTop", "11em" );
+	$(".background-profile").css( "paddingTop", "2em" );
 $(".user").hide();
 
 
