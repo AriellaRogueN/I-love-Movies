@@ -72,7 +72,7 @@
 								<div class="control-group">
 									<label class="control-label" for="signin"></label>
 									<div class="controls">
-										<button id="signin" name="signin" class="btn btn-success">Sign In</button>
+										<button id="sign-in" name="signin" class="btn btn-success" action="javascript:void(0)" >Sign In</button>
 									</div>
 								</div>
 							</fieldset>
@@ -564,6 +564,19 @@
 
 
 <!--Scripts-->
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCE1H_Ge1yMYenfQOu6x9mIf8sXBNNp13g",
+    authDomain: "i-love-sci-fi-movies.firebaseapp.com",
+    databaseURL: "https://i-love-sci-fi-movies.firebaseio.com",
+    projectId: "i-love-sci-fi-movies",
+    storageBucket: "",
+    messagingSenderId: "564853235232"
+  };
+  firebase.initializeApp(config);
+</script>
 	<!-- scripts -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/app.js"></script>

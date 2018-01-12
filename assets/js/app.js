@@ -31,7 +31,65 @@ generateInfo("la la land");
 * cuando "response" es un string false, es porque el título no existe
 *
 */
+
+/*
+*
+* Variables vistas
+*hide:
+var hideSearchResults= $(".search-results").hide();
+var hideProfile= $(".background-profile").hide();
+var hideMoviesDescription= $("#container-movies").hide();
+var hideRecentActivity= $(".users").hide();
+var hideMoviesComments= $(".movies-comments").hide();
+var hideCarrousel= $(".section-white").hide();
+var hideFirsTime= $(".first-time").hide();
+*show
+var showSearchResults= $(".search-results").show();
+var showProfile= $(".background-profile").show();
+var showMoviesDescription= $("#container-movies").show();
+var showRecentActivity= $(".users").show();
+var showMoviesComments= $(".movies-comments").show();
+var showCarrousel= $(".section-white").show();
+var showFirsTime= $(".first-time").show();
+*/
+
 $(document).ready(function() {
+
+/*
+* vista principal sin login
+*/
+var hideSearchResults= $(".search-results").hide();
+var hideProfile= $(".background-profile").hide();
+var hideMoviesDescription= $("#container-movies").hide();
+var showRecentActivity= $(".users").show();
+var hideMoviesComments= $(".movies-comments").hide();
+var showCarrousel= $(".section-white").show();
+var showFirsTime= $(".first-time").show();
+/*
+* click en .back vista de profile usuario
+*/
+$(".back").click(function() {
+	var hideSearchResults= $(".search-results").hide();
+	var hideProfile= $(".background-profile").hide();
+	var hideMoviesDescription= $("#container-movies").hide();
+	var hideRecentActivity= $(".users").hide();
+	var hideMoviesComments= $(".movies-comments").hide();
+	var hideCarrousel= $(".section-white").hide();
+})
+/*
+* click en #signin
+*/
+$("#sign-in").click(function() {
+	var hideFirsTime= $(".first-time").hide();
+	var hideSearchResults= $(".search-results").hide();
+	var hideProfile= $(".background-profile").hide();
+	var hideMoviesDescription= $("#container-movies").hide();
+	var showRecentActivity= $(".users").show();
+	var hideMoviesComments= $(".movies-comments").hide();
+	var showCarrousel= $(".section-white").show();
+
+
+})
 
 /*
 * vista c/login
@@ -39,10 +97,7 @@ $(document).ready(function() {
 		var hideSearchResults= $(".search-results").hide();
 		var hideProfile= $(".background-profile").hide();
 		var hideMoviesDescription= $("#container-movies").hide();
-		var hideRecentActivity= $(".users").hide();
-		var hideMoviesComments= $(".movies-comments").hide();
-		var hideCarrousel= $(".section-white").hide();
-		var hideFirsTime= $(".first-time").hide();
+		var hideRecentActivity= $(".user").hide();
 /*
 * agregar comentarios seccion movie
 */
@@ -66,33 +121,7 @@ $("#ad-comment").click(function() {
 		
 	/*Fin comentarios*/
 });
-/*
-* click en .back vista de profile usuario
-*/
-	$(".back").click(function() {
-		var showProfile= $(".background-profile").show();
-		var hideSearchResults= $(".search-results").hide();
-		var hideProfile= $(".background-profile").hide();
-		var hideMoviesDescription= $("#container-movies").hide();
-		var hideRecentActivity= $(".users").hide();
-		var hideMoviesComments= $(".movies-comments").hide();
-		var hideCarrousel= $(".section-white").hide();
 
-	})
-/*
-* click en #signin
-*/
-	$("#signin").click(function() {
-		var hideFirsTime= $(".first-time").hide();
-	})
-
-/*
-* vista c/login
-*/
-		var hideSearchResults= $(".search-results").hide();
-		var hideProfile= $(".background-profile").hide();
-		var hideMoviesDescription= $("#container-movies").hide();
-		var hideRecentActivity= $(".user").hide();
 })
 
 
