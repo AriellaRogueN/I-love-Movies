@@ -87,18 +87,29 @@ $("#sign-in").click(function() {
 	var showRecentActivity= $(".users").show();
 	var hideMoviesComments= $(".movies-comments").hide();
 	var showCarrousel= $(".section-white").show();
-	$(".space").append("")
-
+	$(".section-white").css( "paddingTop", "11em" );
+	$("#login").hide();
+	$(".user-logo").append("<div class='user-click'><img class='img-circle user' src='assets/images/user.png'></div>")
 
 })
 
 /*
-* vista c/login
+* click en .user (va al perfil)
 */
-		var hideSearchResults= $(".search-results").hide();
-		var hideProfile= $(".background-profile").hide();
-		var hideMoviesDescription= $("#container-movies").hide();
-		var hideRecentActivity= $(".user").hide();
+$(".user-click").click(function() {
+var hideSearchResults= $(".search-results").hide();
+var showProfile= $(".background-profile").show();
+var hideMoviesDescription= $("#container-movies").hide();
+var hideRecentActivity= $(".users").hide();
+var hideMoviesComments= $(".movies-comments").hide();
+var hideCarrousel= $(".section-white").hide();
+var hideFirsTime= $(".first-time").hide();
+	$(".background-profile").css( "paddingTop", "11em" );
+$(".user").hide();
+
+
+})
+
 /*
 * agregar comentarios seccion movie
 */

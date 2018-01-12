@@ -338,7 +338,7 @@ body{
 	color:#08A7AB;
 }
 .main.row ,.section-white{
-	padding-top: 4.5em;
+	padding-top: 3em;
 }
 .main.jumbotron{
 	background-image: url(../images/wallpaper.jpg);
@@ -366,14 +366,23 @@ h2{
 }
 .first-time{
 	margin:0;
-	padding: 8em 2em;
+	padding: 8em 2em 0 2em;
 }
 #login{
 	font-size: 1.5em;
 	color: white;
 }
-
-
+#sign-in{
+	font-size: 1em;
+	background-color:#08A7AB;
+	color: white;
+}
+.user,.back-home{
+	height: 4em;
+	display: inline-block;
+	float: right;
+	padding-top: 0.8em;
+}
 
 
 
