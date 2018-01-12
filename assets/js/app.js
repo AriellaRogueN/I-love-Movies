@@ -143,6 +143,7 @@ var generateList = function(container, code){
 		var title = response.Title;
 			$(container).append("<div class='col-xs-6 col-md-3'>"+
 											"<a href='' class='thumbnail more'>"+
+												"<span class='code'>" + code + "</span>"+
 												"<img src='"+ poster + "' alt=''>" +
 												"<p class='text-center mini-title'>"+ title + "</p>" +
 											"</a>"+
